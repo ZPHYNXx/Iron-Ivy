@@ -7,51 +7,102 @@
     <style>
         body { 
             font-family: Arial, sans-serif; 
-            background: linear-gradient(135deg, #1a2f1a, #0f1a0f); 
-            color: #e0f2d9; 
+            background: #0f0f0f; 
+            color: #d1d5db; 
             text-align: center; 
             padding: 40px 20px; 
             margin: 0;
+            background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('logo.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(17, 24, 39, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            border: 3px solid #854d0e;
         }
         .logo {
             max-width: 420px;
-            margin: 20px auto;
-            border-radius: 15px;
-            box-shadow: 0 0 30px rgba(163, 230, 53, 0.4);
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 40px rgba(234, 179, 8, 0.5);
         }
-        h1 { color: #a3e635; font-size: 2.8em; margin: 10px 0; text-shadow: 0 0 10px #4ade80; }
-        .tagline { color: #bef575; font-size: 1.35em; margin-bottom: 30px; }
+        h1 { 
+            color: #eab308; 
+            font-size: 3em; 
+            margin: 10px 0 8px 0;
+            text-shadow: 0 0 15px #854d0e;
+        }
+        .tagline { 
+            color: #a3a3a3; 
+            font-size: 1.35em; 
+            margin-bottom: 25px; 
+        }
         .ip { 
-            font-size: 1.7em; color: #67e8f9; background: rgba(103, 232, 249, 0.15); 
-            padding: 18px; border-radius: 15px; display: inline-block; margin: 25px 0; 
-            border: 2px solid #4ade80;
+            font-size: 1.65em; 
+            color: #67e8f9; 
+            background: #1f2937; 
+            padding: 18px 30px; 
+            border-radius: 9999px; 
+            display: inline-block; 
+            margin: 20px 0; 
+            border: 2px solid #ca8a04;
+        }
+        .warning {
+            background: #451a03;
+            border: 2px solid #f59e0b;
+            color: #fed7aa;
+            padding: 16px;
+            margin: 25px auto;
+            max-width: 600px;
+            border-radius: 12px;
+            font-weight: bold;
         }
         .mods-btn { 
-            display: inline-block; margin: 12px; padding: 16px 38px; 
-            background: #4ade80; color: #0f172a; font-size: 1.25em; font-weight: bold;
-            border-radius: 50px; text-decoration: none; 
-            box-shadow: 0 4px 15px rgba(163, 230, 53, 0.3);
+            display: inline-block; 
+            margin: 12px; 
+            padding: 16px 40px; 
+            background: linear-gradient(#ca8a04, #854d0e); 
+            color: white; 
+            font-size: 1.3em; 
+            font-weight: bold;
+            border-radius: 9999px; 
+            text-decoration: none; 
+            box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
         }
-        .mods-btn:hover { background: #a3e635; transform: translateY(-3px); }
+        .mods-btn:hover { 
+            background: linear-gradient(#eab308, #ca8a04); 
+            transform: translateY(-4px); 
+        }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="Iron & Ivy" class="logo">
-    
-    <h1>Iron & Ivy</h1>
-    <p class="tagline">A survival-based engineering world for you and your friends</p>
-    
-    <div class="ip">
-        Server IP: <strong>ironandivy.duckdns.org</strong>
+    <div class="content">
+        <img src="logo.png" alt="Iron & Ivy Logo" class="logo">
+        
+        <h1>Iron & Ivy</h1>
+        <p class="tagline">A survival-based engineering world for you and your friends</p>
+        
+        <div class="ip">
+            Server IP: <strong>ironandivy.duckdns.org</strong>
+        </div>
+
+        <div class="warning">
+            ⚠️ Important: Use Forge 1.20.1 only.<br>
+            Do NOT use ForgeOptifine. You can install Optifine/Oculus through your launcher (like TLauncher).
+        </div>
+        
+        <div style="margin: 30px 0;">
+            <a href="https://drive.google.com/file/d/1Rk1jFH1axFKwZrmsZnfUhNP3Y4mj-sd7/view?usp=sharing" class="mods-btn">📥 Optifine Mods</a>
+            <a href="https://drive.google.com/file/d/1Gfi2FYlcH_7fwJ3oKRyzd3fQkkFyBmRf/view?usp=sharing" class="mods-btn">📥 Oculus Mods</a>
+        </div>
+        
+        <p>Extract the chosen modpack and place the files in your mods folder before joining the server.</p>
+        
+        <small>Private Minecraft server • Built for creativity and fun</small>
     </div>
-    
-    <div style="margin: 40px 0;">
-        <a href="YOUR_OPTIFINE_MODS_LINK_HERE" class="mods-btn">📥 Optifine Mods</a>
-        <a href="YOUR_OCULUS_MODS_LINK_HERE" class="mods-btn">📥 Oculus Mods</a>
-    </div>
-    
-    <p>Extract the chosen modpack and place the files in your mods folder before joining.</p>
-    
-    <small>Private Minecraft server • Built for creativity and fun</small>
 </body>
 </html>
