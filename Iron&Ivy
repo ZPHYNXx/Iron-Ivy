@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron & Ivy</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: linear-gradient(135deg, #0f0f0f, #1a3c0a); 
+            color: #fff; 
+            text-align: center; 
+            padding: 60px 20px; 
+            margin: 0;
+        }
+        h1 { color: #4ade80; font-size: 3em; margin-bottom: 10px; }
+        .tagline { color: #a3e635; font-size: 1.3em; margin-bottom: 30px; }
+        .ip { 
+            font-size: 1.8em; color: #67e8f9; background: rgba(103, 232, 249, 0.1); 
+            padding: 15px; border-radius: 12px; display: inline-block; margin: 20px 0; 
+        }
+        .mods-btn { 
+            display: inline-block; margin: 15px; padding: 16px 36px; 
+            background: #22d3ee; color: #0f172a; font-size: 1.3em; font-weight: bold;
+            border-radius: 50px; text-decoration: none; 
+        }
+        .mods-btn:hover { background: #67e8f9; transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <h1>🌿 Iron & Ivy 🌿</h1>
+    <p class="tagline">A survival-based engineering world for you to build anything</p>
+    
+    <div class="ip">
+        Server IP: <strong>ironandivy.duckdns.org</strong>
+    </div>
+    
+    <div style="margin: 40px 0;">
+        <a href="https://drive.google.com/file/d/1Rk1jFH1axFKwZrmsZnfUhNP3Y4mj-sd7/view?usp=sharing" class="mods-btn">📥 Download Mods - Optifine Version</a>
+        <a href="https://drive.google.com/file/d/1Gfi2FYlcH_7fwJ3oKRyzd3fQkkFyBmRf/view?usp=sharing" class="mods-btn">📥 Download Mods - Oculus Version</a>
+    </div>
+    
+    <p>Extract the chosen modpack and place the files in your mods folder before joining the server.</p>
+    
+    <small>Private server for friends • Enjoy your builds!</small>
+</body>
+</html>
