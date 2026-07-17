@@ -74,12 +74,14 @@
         }
         
         .mods-btn {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
             margin: 10px;
-            padding: 16px 42px;
+            padding: 14px 38px;
             background: linear-gradient(145deg, #f59e0b, #92400e);
             color: white;
-            font-size: 1.3em;
+            font-size: 1.25em;
             font-weight: 700;
             border-radius: 9999px;
             text-decoration: none;
@@ -92,6 +94,12 @@
             background: linear-gradient(145deg, #fcd34d, #f59e0b);
             transform: translateY(-4px);
             box-shadow: 0 12px 30px rgba(245, 158, 11, 0.45);
+        }
+        
+        .mods-btn img {
+            height: 28px;
+            width: auto;
+            border-radius: 4px;
         }
         
         .footer {
@@ -118,11 +126,20 @@
         </div>
         
         <div style="margin: 30px 0 20px;">
-            <a href="https://drive.google.com/file/d/1mz9vm0J5f10c05aR4sifODESEcnO41cM/view?usp=sharing" class="mods-btn">📥 Optifine Mods</a>
-            <a href="https://drive.google.com/file/d/1cFo7QJoTBv-5XDE97M6kCNiV7n_MiSKZ/view?usp=sharing" class="mods-btn">📥 Oculus Mods</a>
+            <a href="https://drive.google.com/file/d/1mz9vm0J5f10c05aR4sifODESEcnO41cM/view?usp=sharing" class="mods-btn">
+                <img src="Optifine.png" alt="Optifine">
+                Optifine Mods
+            </a>
+            <a href="https://drive.google.com/file/d/1cFo7QJoTBv-5XDE97M6kCNiV7n_MiSKZ/view?usp=sharing" class="mods-btn">
+                <img src="Oculus.png" alt="Oculus">
+                Oculus Mods
+            </a>
         </div>
         
-        <p style="color: #9ca3af; margin: 15px 0 0;">Extract the chosen modpack and place the files in your mods folder before joining the server.</p>
+        <p style="color: #9ca3af; margin: 15px 0 0; line-height: 1.5;">
+            Extract the chosen ModPack and place the files in your mods folder before joining the server.<br>
+            <span style="font-size: 0.95em;">Resource Packs included in the ModPack folder are completely OPTIONAL and can be ignored depending on your preference.</span>
+        </p>
         
         <div class="footer">
             Private Minecraft server • Built for creativity and fun
